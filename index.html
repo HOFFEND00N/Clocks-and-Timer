@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clocks & Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="Clocks__Container">
+        <h1>Date & Clocks</h1>
+        <div class="time">
+            <div class="bigTime">
+                <div class="digit__container year1"> </div>
+                <div class="digit__container year2"> </div>
+                <div class="digit__container year3"> </div>
+                <div class="digit__container year4"> </div>
+                <div class="dot__container">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <div class="digit__container month1"> </div>
+                <div class="digit__container month2"> </div>
+                <div class="dot__container">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <div class="digit__container day1"> </div>
+                <div class="digit__container day2"> </div>
+            </div>
+            <div class="smallTime">
+                <div class="digit__container hour1"> </div>
+                <div class="digit__container hour2"> </div>
+                <div class="dot__container">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <div class="digit__container minute1"> </div>
+                <div class="digit__container minute2"> </div>
+                <div class="dot__container">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <div class="digit__container second1"> </div>
+                <div class="digit__container second2"> </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>Timer</h1>
+    <div class="timer__container">
+        <div class="smallTime">
+            <input type="text" class="digit__container inputHour1">
+            <input type="text" class="digit__container inputHour2">
+            <div class="dot__container">
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <input type="text" class="digit__container inputMinute1">
+            <input type="text" class="digit__container inputMinute2">
+            <div class="dot__container">
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <input type="text" class="digit__container inputSecond1">
+            <input type="text" class="digit__container inputSecond2">
+            <div class="btn__container">
+                <button class="btn" onclick="SetTimer()">Start!</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

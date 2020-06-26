@@ -1,0 +1,83 @@
+body {
+    background-image: url(Images/bg.jpg);
+    background-size: 1536px;
+    font-family: 'Permanent Marker', cursive;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigTime {
+    display: flex;
+    margin: 0 auto;
+}
+
+.smallTime {
+    display: flex;
+    margin: 15px auto;
+}
+
+.digit__container {
+    background-color: whitesmoke;
+    padding: 40px 25px;
+    width: 25px;
+    height: 50px;
+    margin: 0px 3px;
+    border-radius: 7%;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 2px 7px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+.dot__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timer__container {
+    display: flex;
+}
+
+input {
+    border-style: none;
+    font-family: 'Permanent Marker', cursive;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn {
+    margin-left: 30px;
+    height: 30px;
+    border-radius: 10%;
+    border-style: none;
+}
+
+.btn:active {
+    transform: translateY(4px);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn__container {
+    display: flex;
+    align-items: center;
+}
